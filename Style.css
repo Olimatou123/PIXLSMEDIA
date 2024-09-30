@@ -14,6 +14,8 @@ li {
 .nav-left a {
   text-decoration: none;
   color: #b7b7b7;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .nav-left a.active {
   color: black;
@@ -34,7 +36,7 @@ nav .nav-left {
 }
 .nav-left ul {
   display: flex;
-  gap: 20px;
+  gap: 100px;
 }
 ul li input {
   background-color: #e6e6e6;
@@ -147,3 +149,79 @@ section .right {
   font-weight: 600;
 }
 
+.right{
+  padding: 30px 100px;
+  position: relative;
+  background: url(image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+.form-title-wrapper{
+  text-align: center;
+  color: #e6e6e6;
+  margin: 30px o;
+}
+.form-title-wrapper h1{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.form-title-wrapper h3{
+  text-transform: capitalize;
+}
+.form-wrapper{
+  z-index: 50;
+  background-color: white;
+  padding: 30px;
+  /*min-width: 300px;
+  width: 450px; */
+  margin: 0 auto;
+}
+.form-wrapper h3{
+  text-align: center;
+  margin: 30px 0;
+}
+form{
+  z-index: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+form.input-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  }
+.input-wrapper input{
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid rgb(228, 228, 228);
+  outline: none;
+  width: 100%;
+}
+.input-wrapper label{
+  color: rgb(153, 150, 150);
+  padding-left: 10px;
+}
+
+form button{
+  background-color: black;
+  padding: 15px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+}
+.overlay{
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  border-radius: 30px;
+  z-index: 0;
+}
