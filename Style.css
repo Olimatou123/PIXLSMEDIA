@@ -196,6 +196,7 @@ section .right {
   /*min-width: 300px;
   width: 450px; */
   margin: 0 auto;
+  border-radius: 30px;
 }
 .form-wrapper h3{
   text-align: center;
@@ -225,7 +226,7 @@ form.input-wrapper{
 }
 
 form button{
-  background-color: black;
+  background-color:black;
   padding: 15px 0;
   border: none;
   cursor: pointer;
